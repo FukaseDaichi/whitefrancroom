@@ -1,6 +1,7 @@
 [build]
   # 公開ディレクトリ
-  publish = "public"
+  publish = "public/"
+  
 [[headers]]
   for = "/*"
     [headers.values]
