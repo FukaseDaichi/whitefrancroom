@@ -1,0 +1,7 @@
+[build]
+  # 公開ディレクトリ
+  publish = "public"
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "ccfolia.com"
