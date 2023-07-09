@@ -1,8 +1,7 @@
 [build]
   # 公開ディレクトリ
   publish = "public/"
-
 [[headers]]
   for = "/*"
-    [headers.values]
+  [headers.values]
     Access-Control-Allow-Origin = "*"
